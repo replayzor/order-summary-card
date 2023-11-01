@@ -3,7 +3,7 @@ import iconMusic from "/images/icon-music.svg";
 
 function App() {
 	return (
-		<div className="flex items-center justify-center h-screen">
+		<main className="flex items-center justify-center h-screen">
 			<div className="bg-white max-w-[400px] rounded-2xl">
 				<div>
 					<img
@@ -34,26 +34,32 @@ function App() {
 								<p className="text-neutral-desaturatedBlue">$59.99/year</p>
 							</div>
 						</div>
-						<a
-							href="#"
+						<button
+							type="button"
 							className="font-bold underline transition duration-300 hover:no-underline hover:opacity-50 text-primary-brightBlue"
 						>
 							Change
-						</a>
+						</button>
 					</div>
 					<div className="flex items-center justify-center my-6">
-						<button className="px-20 py-3 font-bold text-white transition duration-300 shadow-2xl hover:bg-opacity-60 bg-primary-brightBlue rounded-xl shadow-neutral-desaturatedBlue">
+						<button
+							type="button"
+							className="px-20 py-3 font-bold text-white transition duration-300 shadow-2xl hover:bg-opacity-60 bg-primary-brightBlue rounded-xl shadow-neutral-desaturatedBlue"
+						>
 							Proceed to Payment
 						</button>
 					</div>
 					<div className="flex items-center justify-center mb-6">
-						<button className="font-bold transition duration-300 hover:text-neutral-darkBlue text-neutral-desaturatedBlue">
+						<button
+							type="button"
+							className="font-bold transition duration-300 hover:text-neutral-darkBlue text-neutral-desaturatedBlue"
+						>
 							Cancel Order
 						</button>
 					</div>
 				</div>
 			</div>
-		</div>
+		</main>
 	);
 }
 
