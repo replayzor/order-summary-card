@@ -6,11 +6,7 @@ function App() {
 		<main className="flex items-center justify-center h-screen">
 			<div className="bg-white max-w-[400px] rounded-2xl">
 				<div>
-					<img
-						src={illustratedHero}
-						alt="Illustrated Hero"
-						className="rounded-t-2xl"
-					/>
+					<img src={illustratedHero} alt="" className="rounded-t-2xl" />
 				</div>
 				<div className="p-2">
 					<h1 className="my-5 text-2xl font-extrabold text-center text-neutral-darkBlue">
@@ -24,7 +20,7 @@ function App() {
 					</div>
 					<div className="flex items-center justify-between w-4/5 px-4 py-4 m-auto bg-neutral-veryPaleBlue rounded-3xl">
 						<div className="flex flex-row gap-4">
-							<img src={iconMusic} alt="Icon Music" className="rounded-full " />
+							<img src={iconMusic} alt="" className="rounded-full " />
 							<div className="flex flex-col">
 								<p className="font-black text-neutral-darkBlue">Annual Plan</p>
 								<p className="text-neutral-desaturatedBlue">$59.99/year</p>
