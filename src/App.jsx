@@ -24,11 +24,7 @@ function App() {
 					</div>
 					<div className="flex items-center justify-between w-4/5 px-4 py-4 m-auto bg-neutral-veryPaleBlue rounded-3xl">
 						<div className="flex flex-row gap-4">
-							<img
-								src={iconMusic}
-								alt="Icon Music"
-								className="rounded-full bg-neutral-darkBlue"
-							/>
+							<img src={iconMusic} alt="Icon Music" className="rounded-full " />
 							<div className="flex flex-col">
 								<p className="font-black text-neutral-darkBlue">Annual Plan</p>
 								<p className="text-neutral-desaturatedBlue">$59.99/year</p>
