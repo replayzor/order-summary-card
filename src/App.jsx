@@ -13,41 +13,41 @@ function App() {
 					/>
 				</div>
 				<div className="p-2">
-					<h1 className="text-center my-5 text-2xl font-extrabold text-neutral-darkBlue">
+					<h1 className="my-5 text-2xl font-extrabold text-center text-neutral-darkBlue">
 						Order Summary
 					</h1>
-					<div className="text-center flex justify-center items-center font-display">
-						<p className="w-2/3 text-neutral-desaturatedBlue mb-7 font-bold">
+					<div className="flex items-center justify-center text-center font-display">
+						<p className="w-2/3 font-bold text-neutral-desaturatedBlue mb-7">
 							You can now listen to millions of songs, audio books, and podcasts
 							on any device anywhere you like!
 						</p>
 					</div>
-					<div className="py-4 px-4 w-4/5 m-auto bg-neutral-veryPaleBlue rounded-3xl flex justify-between items-center">
+					<div className="flex items-center justify-between w-4/5 px-4 py-4 m-auto bg-neutral-veryPaleBlue rounded-3xl">
 						<div className="flex flex-row gap-4">
 							<img
 								src={iconMusic}
 								alt="Icon Music"
-								className="bg-neutral-darkBlue rounded-full"
+								className="rounded-full bg-neutral-darkBlue"
 							/>
 							<div className="flex flex-col">
-								<p className="text-neutral-darkBlue font-black">Annual Plan</p>
+								<p className="font-black text-neutral-darkBlue">Annual Plan</p>
 								<p className="text-neutral-desaturatedBlue">$59.99/year</p>
 							</div>
 						</div>
 						<a
 							href="#"
-							className="hover:no-underline hover:opacity-50 underline text-primary-brightBlue font-bold"
+							className="font-bold underline transition duration-300 hover:no-underline hover:opacity-50 text-primary-brightBlue"
 						>
 							Change
 						</a>
 					</div>
 					<div className="flex items-center justify-center my-6">
-						<button className="hover:bg-opacity-60 bg-primary-brightBlue text-white rounded-xl shadow-neutral-desaturatedBlue shadow-2xl py-3 px-20 font-bold">
+						<button className="px-20 py-3 font-bold text-white transition duration-300 shadow-2xl hover:bg-opacity-60 bg-primary-brightBlue rounded-xl shadow-neutral-desaturatedBlue">
 							Proceed to Payment
 						</button>
 					</div>
 					<div className="flex items-center justify-center mb-6">
-						<button className="hover:text-neutral-darkBlue text-neutral-desaturatedBlue font-bold">
+						<button className="font-bold transition duration-300 hover:text-neutral-darkBlue text-neutral-desaturatedBlue">
 							Cancel Order
 						</button>
 					</div>
